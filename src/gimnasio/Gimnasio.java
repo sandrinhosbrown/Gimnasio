@@ -7,7 +7,7 @@ package gimnasio;
 
 /**
  *
- * @author usu21
+ * @author Sandro Gamarra
  */
 public class Gimnasio {
 
@@ -15,7 +15,8 @@ public class Gimnasio {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        
+        
     }
     
 }

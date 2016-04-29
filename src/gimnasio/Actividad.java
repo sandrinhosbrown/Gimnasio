@@ -33,8 +33,7 @@ public class Actividad implements Serializable {
         inscritos =0;
     }
     
-    //toString
-
+    //metodo toString
     @Override
     public String toString() {
         return "Actividad{" + "nombre=" + nombre + ", maxPlazas=" + maxPlazas + ", inscritos=" + inscritos + ", precio=" + precio + '}';
@@ -57,6 +56,7 @@ public class Actividad implements Serializable {
         return hash;
     }
 
+    //Arreglamos el equals para que no sea Case Sensitive.
     @Override
     public boolean equals(Object obj) {
         if (obj == null) {
@@ -66,7 +66,8 @@ public class Actividad implements Serializable {
             return false;
         }
         final Actividad other = (Actividad) obj;
-        return Objects.equals(this.nombre, other.nombre);
+        /*/*/
+        return this.nombre.equalsIgnoreCase(other.getNombre());
     }
     
     
