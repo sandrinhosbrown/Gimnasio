@@ -3,13 +3,14 @@
  */
 package gimnasio;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 
 /**
  *
- * @author usu21
+ * @author Sandro Gamarra
  */
-public class ListaSocio {
+public class ListaSocio implements Serializable{
     
     private ArrayList<Socio> lista;
 

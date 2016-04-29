@@ -5,13 +5,14 @@
  */
 package gimnasio;
 
+import java.io.Serializable;
 import java.util.Objects;
 
 /**
  *
- * @author usu21
+ * @author Sandro Gamarra
  */
-public class Socio {
+public class Socio implements Serializable{
     //¿que necesitamos?
     //insert code>add property
     
